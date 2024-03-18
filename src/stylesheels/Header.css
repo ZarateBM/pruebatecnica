@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #050028;
+    margin-top: 15rem;
+    margin-bottom: 15rem;
+  }
+  
+  .Header-Title {
+    flex: 1; 
+  }
+  
+  .Header-Title h1 {
+    font-size: 2em; 
+    margin: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
