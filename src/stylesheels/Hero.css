@@ -1,0 +1,23 @@
+#hero {
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto; 
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+    width: 100%;
+    color: #050028;
+    opacity: 0; /* Inicialmente invisible */
+    transform: translateY(100%); /* Mover hacia abajo fuera de la pantalla */
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out; /* Transición de opacidad y transformación durante 1 segundo */
+}
+
+#hero.fade-in {
+    opacity: 1; /* Mostrar con opacidad completa */
+    transform: translateY(0); /* Mover de vuelta a la posición original */
+}
+
+#hero img {
+    width: auto; 
+    height: auto;
+}
